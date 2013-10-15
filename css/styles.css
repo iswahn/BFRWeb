@@ -1,0 +1,89 @@
+html,body{
+    margin:0; 
+	padding:5px; 
+	height:93%;
+	background-image: transparent;
+}
+
+frameset{
+	background:transparent;
+}
+
+#content{
+	width: 986px;
+	position:relative;
+	min-height:100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#header_bar{
+	padding: 15px;
+	margin: 25px;
+	box-shadow: 8px 8px 6px #888888;
+}
+
+#main_nav { 
+	margin-left:480px; 
+	margin-top:-50px;
+}
+
+#main_nav li { 
+	float:left; 
+	list-style-type: none;
+}
+
+#main_nav li a{ 
+	font-size:16px; 
+	color:#000000; 
+	text-decoration:none; 
+	padding:8px 15px; 
+}
+	
+#main_nav li a.active, #main_nav li a:hover{  
+	background-color: #AAAAAA;
+}
+
+#main_nav li a{
+	background-color: #BBBBBB;
+}
+
+#sub_content{
+	width: 986px;
+	padding: 15px;
+	margin: 25px;
+	background-color: #CCCCCC;
+	border-radius: 15px;
+	box-shadow: 8px 8px 6px #888888;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#header_frame{
+	width: 986px;
+	height: 75px;
+	padding: 15px;
+	background-color: #CCCCCC;
+	border-radius: 15px;
+	box-shadow: 8px 8px 6px #888888;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#subnote{
+	font-style:italic;
+	margin-left: 100px;
+	margin-top: -5px;
+}
+
+#business_name{
+	font-family: realty;
+	margin: 0px;
+	margin-top: -5x;
+}
+
+@font-face
+{
+font-family: realty;
+src: url('../fonts/cursif.ttf')
+}

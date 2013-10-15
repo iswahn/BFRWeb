@@ -1,0 +1,31 @@
+#about_form {
+	width: 200px;
+}
+
+#contact_div{
+	border: 0px;
+	width: 700px;
+	float:  left;
+	margin-left: 90px;
+}
+
+#contact_comment{
+	width: 600px;
+	height: 75px;
+}
+
+#contact_submit{
+	margin-left: 90px;
+}
+
+#contact_submit, #contact_clear{
+	width:100px;
+}
+
+#comments{
+	border: 0px;
+	margin-left: 90px;
+}
+#contact_table {
+	width:100%;
+}
