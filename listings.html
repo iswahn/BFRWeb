@@ -7,16 +7,38 @@
 <title>New Page 1</title>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
-<frameset rows="130,*" border=0>
-	<frame name="header" scrolling="no" noresize target="main" src="Header.html">
-	<frame name="main" src="http://nh.agentave.com/v12/index.php?cid=1134" target="contents" scrolling="yes">
-	<frame name="footer" scrolling="no" noresize src="footer.html">
-	<noframes>
-	<body>
+<body>
 
-	<p>This page uses frames, but your browser doesn't support them.</p>
 
-	</body>
-	</noframes>
-</frameset>
+
+</body>
+<body>
+	<div id="content">
+		<div id="header_frame">
+		 <h2 id="business_name">Brown Family Realty</h2>
+		 <h4 id="subnote">- An independent agency since 1971 -</h4>
+		 
+			<ul id="main_nav">
+				<li><a href="index.html">| Home |</a></li>
+				<li><a href="#" class="active">| Listings |</a></li>
+				<li><a href="area.html">| Area Information |</a></li>
+				<li><a href="contact.html">| Contact Us |</a></li>
+			</ul>
+		</div>	
+		<div id="sub_content">
+		<iframe class="iframe" src="http://nh.agentave.com/v12/index.php?cid=1134" width="100%" height="100%" seamless frameborder=0>
+		  <p>Your browser does not support iframes.</p>
+		</iframe>
+		</div>
+	</div>
+			<hr></hr>
+			<span id="footer">
+			<p align=center>
+				<strong>&copy; Brown Family Realty</strong><br>
+				PO Box 61, 8 East Main Street, Warner, NH 03278<br>
+				Ph: (603) 456-3000 | Fx: (603) 456-3011 |
+				<a href="mailto:info@brownfamilyrealty.com">info@brownfamilyrealty.com</a>
+			</p>
+		</span>
+</body>
 </html>
