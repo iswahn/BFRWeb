@@ -4,53 +4,15 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/home_styles.css">
 <title>Brown Family Realty - Home</title>
-<SCRIPT LANGUAGE="JavaScript">
-
-var num=1
-img1 = new Image ()
-img1.src = "images/listing-199-1.jpg"
-img2 = new Image ()
-img2.src = "images/listing-198-1.jpg"
-img3 = new Image ()
-img3.src = "images/listing-197-1.jpg"
-img4 = new Image ()
-img4.src = "images/listing-196-1.jpg"
-
-text1 = "UNIQUE, SOLID CONTEMPORARY ON 24 ACRES - Very unique, Large Solid CONTEMPORARY, privately sited on 24 (surveyed) Acres w/Stone Walls. This retired owner completely upgraded to triple windows & heat efficiency to a fully maintenance free exterior... Rooms are spacious, light & bright. MINT w/open concept to balconies, rooms & vaulted ceilings throughout. A super walk-out basement w/great guest suite, game room & your own bath. Visitors private paradise!! Super over sized garage... Great family compound in your own private woodland. Address & property frontage is in Warner, the private drive passes over the Salisbury line to the buildings. $325,000"
-text2 = "1790 ANTIQUE POST & BEAM ~ WATERFRONT ~ WARNER - 1790 Antique Post & Beam Hand Hewn Timber Frame Beauty.... Solid granite foundation w/walk-out basement. The River Pond, unveiling visual remains of the Old RXR Bridge & Mill Sites, long gone, but the water eternally meanders its course, bringing wildlife, fish, swimming and canoeing to the same lovely home for 223 years! Restored, updated, while still retaining character of the 1790’s to love & enjoy. Don’t pack for vacations ever again, its all here. $259,000 "
-text3 = "1790 HIP ROOF COLONIAL - 1790 Post & Beam Hip Roof Colonial on 4.3 nice stonewalled acres. Lawns cascading to a beautiful stream below. Dipping pools here & there & great tubbing or shallow beam kayaking - what fun! Many rooms with early ERA paneled walls, large gunstock corners, all pine floors. This is in Excellent Condition, an easy keeper. Be a part of Warner life, yet only 14 miles on I-89, on a super safe loop for kids & animals. A lot of value in this price range. $256,500 "
-text4 = "1800 POST & BEAM CAPE - WARNER - Warm, Sweet, Bright & Sunny - Lg 20’ LR w/Fireplace & Beehive Oven, DR, Kit, two 1st flr BR’s or flexible room for BR/Den/Office, Baths, Laundry w/Washer & Dryer included. 2nd flr, BR & Office space. Studio room w/fireplace @ 2nd level side entry. Wood Flooring & all Updates throughout. Court Yard is looking out to the Dalton Covered Bridge. Doesn’t get much better in this price range. $178,300 "
-
-function slideshowUp()
-{
-num=num+1
-if (num==5)
-{num=1}
-document.listing_image.src=eval("img"+num+".src")
-document.slideshow_form.listing_description.value=eval("text"+num)
-}
-
-function slideshowBack()
-{
-num=num-1
-if (num==0)
-{num=4}
-document.listing_image.src=eval("img"+num+".src")
-document.slideshow_form.listing_description.value=eval("text"+num)
-}
-
-</SCRIPT>
 </head>
-
 <body>
 	<div id="content">
-			<div id="header_frame">
-		
+		<div id="header_frame">
 		 <h2 id="business_name">Brown Family Realty</h2>
 		 <h4 id="subnote">- An independent agency since 1971 -</h4>
-		 
+		 <h3 id="callUs">Call us at (603) 456-3000</h3>
 			<ul id="main_nav">
-				<li><a href="#"  class="active">| Home |</a></li>
+				<li><a href="#" class="active">| Home |</a></li>
 				<li><a href="listings.html">| Listings |</a></li>
 				<li><a href="area.html">| Area Information |</a></li>
 				<li><a href="contact.html">| Contact Us |</a></li>
@@ -64,18 +26,9 @@ document.slideshow_form.listing_description.value=eval("text"+num)
 		</div>
 		
 		<div id="sub_content"><h3>Featured Listings</h3>
-		<form name="slideshow_form">
-			<div id="slideshow"><img src="images/listing-199-1.jpg" name="listing_image"></img></div>
-			<div id="description">
-				<textarea name="listing_description" readonly="readonly" id="slideshow_description">UNIQUE, SOLID CONTEMPORARY ON 24 ACRES - Very unique, Large Solid CONTEMPORARY, privately sited on 24 (surveyed) Acres w/Stone Walls. This retired owner completely upgraded to triple windows & heat efficiency to a fully maintenance free exterior... Rooms are spacious, light & bright. MINT w/open concept to balconies, rooms & vaulted ceilings throughout. A super walk-out basement w/great guest suite, game room & your own bath. Visitors private paradise!! Super over sized garage... Great family compound in your own private woodland. Address & property frontage is in Warner, the private drive passes over the Salisbury line to the buildings. $325,000</textarea>
-			</div>
-		</form>
-		<button onClick="JavaScript:slideshowBack()" id="slideshow_button_back"> Back</button>
-		<button onClick="JavaScript:slideshowUp()" id="slideshow_button_next"> Next</button> 
+
 		<p style="clear: both"></p>
-		</div>
-	</div>
-			<hr></hr>
+		</div>					
 			<span id="footer">
 			<p align=center>
 				<strong>&copy; Brown Family Realty</strong><br>
@@ -84,6 +37,7 @@ document.slideshow_form.listing_description.value=eval("text"+num)
 				<a href="mailto:info@brownfamilyrealty.com">info@brownfamilyrealty.com</a>
 			</p>
 		</span>
+	</div>
 </body>
 
 </html>
