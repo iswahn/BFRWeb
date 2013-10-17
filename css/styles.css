@@ -1,4 +1,4 @@
-html,body{
+html,body{	color: #3f3f3f;
     margin:0; 
 	padding:5px; 
 	height:93%;
@@ -32,7 +32,7 @@ background-attachment: fixed;
 }
 
 #main_nav { 
-	margin-left:600px; 
+	margin-left:550px;
 }
 
 #main_nav li { 
@@ -68,7 +68,7 @@ background: #CCCCCC;
 
 #header_frame{
 	width: 1250px;
-	height: 75px;
+	height: 100px;
 	padding: 15px;
 	border-radius: 15px;
 	box-shadow: 8px 8px 6px #AAAAAA;
@@ -91,8 +91,7 @@ background: #CCCCCC;
 
 #business_name{
 	font-family: realty;
-	margin: 0px;
-	margin-top: -5x;
+	margin:0px;
 }
 
 @font-face
