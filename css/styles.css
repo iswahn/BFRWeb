@@ -20,16 +20,25 @@ html,body{
 	float:left;
 }
 
+hr { display: block; height: 1px;
+    border: 0; border-top: 1px solid #ccc;
+    margin: 1em 0; padding: 0; }
+
 #featuredListing{
-	padding:15px;
+	padding:15px
 }
 
 #featuredDesc b{
-	color: #008000;
+	color:green
 }
 
 #slideImg{
 	height:150px;
+	width:200px;
+	border-style:solid;
+	border-width:3px;
+	border-color:#777777;
+	border-radius:15px;
 }
 
 #content{
@@ -103,6 +112,56 @@ html,body{
 #business_name{
 	font-family:realty;
 	margin:0px
+}
+
+#welcome_subnote{
+	font-style:italic;
+	margin-left:500px;
+	margin-top:-10px
+}
+
+#slideshow{
+	margin-left:15px;
+	margin-right:15px;
+	width:300px;
+	height:225px;
+	float:left
+}
+
+#slideshow img{
+	width:100%;
+	height:100%;
+	border-top-left-radius:22px;
+	border-top-right-radius:22px;
+	border-bottom-left-radius:22px;
+	border-bottom-right-radius:22px
+}
+
+#slideshow_button_back{
+	margin-left:15px;
+	width:153px
+}
+
+#slideshow_button_next{
+	margin-left:-5px;
+	width:153px
+}
+
+#slideshow_description{
+	border:none;
+	resize:none;
+	width:450px;
+	height:230px;
+	background-color:transparent
+}
+
+#description{
+	border-style: ;
+	border-width:0px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px
 }
 
 #welcome_subnote{
