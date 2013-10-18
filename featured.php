@@ -14,7 +14,7 @@
 	<div id="content">
 		<?php include 'header.php'; ?>
 		
-		<div id="sub_content"><h3>Featured Listings</h3>
+		<div id="sub_content">
 		<?php
 			buildFeaturedListings('images');
 		?>
