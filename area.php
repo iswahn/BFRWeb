@@ -3,23 +3,13 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/area_styles.css">
-<title>Brown Family Realty - Area Info</title>
+<?php $page="Area Info"?>
+<title>Brown Family Realty - <?php echo $page?></title>
 </head>
 
 <body>
 	<div id="content">
-		<div id="header_frame">
-		 <h1 id="business_name">Brown Family Realty</h1>
-		 <h4 id="subnote">- An independent agency since 1971 -</h4>
-		 <h3 id="callUs">Call us at (603) 456-3000</h3>
-			<ul id="main_nav">
-				<li><a href="index.html">| Home |</a></li>
-				<li><a href="featured.html">| Featured Listings |</a></li>
-				<li><a href="listings.html">| Listings |</a></li>
-				<li><a href="#"  class="active">| Area Information |</a></li>
-				<li><a href="contact.html">| Contact Us |</a></li>
-			</ul>
-		</div>	
+		<?php include 'header.php'; ?>
 		<div id="sub_content">
 		<center>
 			<div id="kearsarge"><img src="images/mount_kear.jpg"></img></div>
@@ -60,21 +50,7 @@
 			of ramp - 1 mile on the right. 
 		</div>
 					
-			<span id="footer">
-			<p align=center>
-				<strong>&copy; Brown Family Realty</strong><br>
-				PO Box 61, 8 East Main Street, Warner, NH 03278<br>
-				Ph: (603) 456-3000 | Fx: (603) 456-3011 |
-				<script type="text/javascript" language="javascript">
-<!--
-// eMail Obfuscator Script 1.31 by Tim Williams - freeware
-    {     document.write(String.fromCharCode(60,97,32,104,114,101,102,61,34,109,97,105,108,116,111,58,105,110,102,111,64,98,114,111,119,110,102,97,109,105,108,121,114,101,97,108,116,121,46,99,111,109,34,62,105,110,102,111,64,98,114,111,119,110,102,97,109,105,108,121,114,101,97,108,116,121,46,99,111,109,60,47,97,62))
-         }
-         //-->         </script>
-         <noscript>
-         </noscript>
-			</p>
-		</span>
+	<?php include 'footer.php'; ?>
 	</div>
 
 </body>
