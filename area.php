@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/navigation_styles.css">
 <link rel="stylesheet" type="text/css" href="css/area_styles.css">
 <?php $page="Area Info"?>
 <title>Brown Family Realty - <?php echo $page?></title>

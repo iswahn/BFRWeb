@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/navigation_styles.css">
 <link rel="stylesheet" type="text/css" href="css/home_styles.css">
 
 <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
@@ -23,6 +24,7 @@
 	<?php
 		function buildFeaturedListings($path)
 		{
+			echo '<hr></hr>';
 			foreach (glob($path . "/listing*", GLOB_ONLYDIR) as $dirName)
 			{	
 				echo '<div id="featuredListing">';
