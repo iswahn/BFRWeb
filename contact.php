@@ -8,14 +8,13 @@
 <title>Brown Family Realty - <?php echo $page?></title>
 </head>
 <body>
+<?php include 'header.php'; ?>
 	<div id="content">
-		<?php include 'header.php'; ?>
+		
 		<div id="sub_content">
 		Call us at 603-456-3000 to make an appointment or stop by our office at 8 East Main Street, Warner, NH 03278. In order for us to better serve your needs, please take a moment to provide us with the information below.<br />
-		* Required
-		</div>
-		<div id="sub_content">		
-			<form name="contact_form" method="GET">
+		* Required	
+		<form name="contact_form" method="GET">
 			<fieldset>
 			<legend>About you</legend>
 			<div id="contact_div">
@@ -245,9 +244,9 @@
 		</center>
 		</div>
 					
-	<?php include 'footer.php'; ?>
+	
 	</div>
-
+<?php include 'footer.php'; ?>
 </body>
 
 </html>

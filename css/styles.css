@@ -1,106 +1,53 @@
-html,body{
+body{
 	margin:0;
-	padding:5px;
-	height:93%;
-	background-image:-ms-linear-gradient(top,#005b87 0%,#00abff 100%);
-	background-image:-moz-linear-gradient(top,#005b87 0%,#00abff 100%);
-	background-image:-o-linear-gradient(top,#005b87 0%,#00abff 100%);
-	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#005b87),color-stop(1,#00abff));
-	background-image:-webkit-linear-gradient(top,#005b87 0%,#00abff 100%);
-	background-image:linear-gradient(to bottom,#005b87 0%,#00abff 100%);
-	background-attachment:fixed;
-	font-family:"Times New Roman", Times, serif
-}
-
-.myslides{
-	height:150px;
-	width:250px;
-	padding:15px;
-	float:left
-}
-#center{
-	margin-left: auto;
-	margin-right:auto;
-}
-#profileImg{
-	width:200px
-}
-
-#agentProfile{
-	width:250px;
-	margin-right:50px;
-	display:inline-block;
-	padding:15px;
-	border:solid;
-	border-color:#aaa;
-	border-width:3px;
-}
-
-
-#headline{
-    color: #3333ff;
-    font-weight: bold;
-}
-
-#price{
-    font-weight: bold;
-    margin-top:15px ;
-}
-
-hr{
-	height:2px;
-	border-top:1px solid #777
-}
-
-#featuredListing{
-	padding:15px
-}
-
-#featuredDesc b{
-	color:green
-}
-
-#adminImg, #slideImg{
-	height:150px;
-	width:200px;
-}
-
-#slideImg{
-	border-style:solid;
-	border-width:3px;
-	border-color:#777;
-	border-radius:15px
+	height:100%;
+	background-color:#eee;
+	font-family:"Times New Roman",Times,serif
 }
 
 #content{
 	width:1300px;
-	padding-bottom:100px;
-	position:relative;
-	min-height:100%;
+	min-height:75%;
+	margin-top:20px;
+	margin-bottom:20px;
 	margin-left:auto;
-	margin-right:auto;
-	border-radius:25px
+	margin-right:auto
 }
 
 #callUs{
 	font-style:italic;
-	margin-left:975px;
-	margin-top:-125px
+	margin-left:1000px;
+	margin-top:-100px
 }
 
-#sub_content,#header_frame{
-	width:1250px;
-	padding:15px;
-	margin-top:25px;
-	border-radius:15px;
-	box-shadow:8px 8px 6px #004D73;
+#sub_content{
+	width:1300px;
 	margin-left:auto;
 	margin-right:auto;
-	background:#eeeeee
+	padding-left:10px;
+	padding-right:10px;
+	border: #ccc;
+	border-width: 2px;
+	border-left-style:solid;
+	border-right-style:solid;
 }
 
 #header_frame{
-	height:100px
+	width:100%;
+	padding-top:1px;
+	background-image: -ms-linear-gradient(top, #999999 0%, #EEEEEE 100%);
+	background-image: -moz-linear-gradient(top, #999999 0%, #EEEEEE 100%);
+	background-image: -o-linear-gradient(top, #999999 0%, #EEEEEE 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999999), color-stop(1, #EEEEEE));
+	background-image: -webkit-linear-gradient(top, #999999 0%, #EEEEEE 100%);
+	background-image: linear-gradient(to bottom, #999999 0%, #EEEEEE 100%);
+}
+
+#header_content{
+	height:100px;
+	width:1300px;
+	margin-left:auto;
+	margin-right:auto
 }
 
 #subnote{
@@ -110,9 +57,13 @@ hr{
 }
 
 #footer{
-	background-color: blue;
+	background-image: -ms-linear-gradient(bottom, #999999 0%, #EEEEEE 100%);
+	background-image: -moz-linear-gradient(bottom, #999999 0%, #EEEEEE 100%);
+	background-image: -o-linear-gradient(bottom, #999999 0%, #EEEEEE 100%);
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #999999), color-stop(1, #EEEEEE));
+	background-image: -webkit-linear-gradient(bottom, #999999 0%, #EEEEEE 100%);
+	background-image: linear-gradient(to top, #999999 0%, #EEEEEE 100%);
 	position:absolute;
-	bottom:0;
 	width:100%;
 	height:100px
 }

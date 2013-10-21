@@ -7,11 +7,12 @@
 <link rel="stylesheet" type="text/css" href="css/navigation_styles.css">
 </head>
 <body>
-	<div id="content">
-		<?php include 'header.php'; ?>
-		<div id="sub_content">
-		</div>			
-		<?php include 'footer.php'; ?>
+	<?php include 'header.php'; ?>
+	<div id="content">		
+			<div id="sub_content">		
+		
+			</div>
 	</div>
+	<?php include 'footer.php'; ?>
 </body>
 </html>

@@ -7,18 +7,16 @@
 <title>Brown Family Realty - <?php echo $page?></title>
 </head>
 <body>
+	<?php include 'header.php'; ?>
 	<div id="content">
-		<?php include 'header.php'; ?>
+		
 
 		<div id="sub_content">
 			<p>We are New Hampshire natives welcoming "new-comers" to Warner and the surrounding area. 
 			We take great pride in placing families in suitable homes with emphasis on bringing buyer 
 			and seller together, making the transition as stress-free as possible.</p>
 	        <p id="welcome_subnote">From our family to yours, we welcome you.</p>
-		</div>
-		
-		<div id="sub_content">
-			<h2>Our Agents</h2>
+		<h2>Our Agents</h2>
 			<center>
 				<div id="agentProfile">
 					<div>
@@ -61,9 +59,8 @@
 				</div>
 			</center>
 		</div>
-		
-		<?php include 'footer.php'; ?>
 	</div>
+	<?php include 'footer.php'; ?>
 </body>
 
 </html>

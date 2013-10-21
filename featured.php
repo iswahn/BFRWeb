@@ -3,7 +3,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/navigation_styles.css">
-<link rel="stylesheet" type="text/css" href="css/home_styles.css">
+<link rel="stylesheet" type="text/css" href="css/featured_styles.css">
 
 <script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
 <script src="js/jquery.cycle.lite.js" type="text/javascript"></script>
@@ -12,15 +12,16 @@
 <title>Brown Family Realty - <?php echo $page?></title>
 </head>
 <body>
+<?php include 'header.php'; ?>
 	<div id="content">
-		<?php include 'header.php'; ?>
+		
 		
 		<div id="sub_content">
 		<?php
 			buildFeaturedListings('images');
 		?>
 		</div>					
-	<?php include 'footer.php'; ?>
+	
 	<?php
 		function buildFeaturedListings($path)
 		{
@@ -58,6 +59,7 @@
 		}
 	?>
 	</div>
+	<?php include 'footer.php'; ?>
 </body>
 
 </html>

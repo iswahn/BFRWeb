@@ -1,6 +1,6 @@
 #main_nav{
-	margin-left:550px;
-	margin-top: -50px;
+	margin-left:600px;
+	margin-top:-50px
 }
 
 #main_nav li{
@@ -16,9 +16,14 @@
 }
 
 #main_nav li a.active,#main_nav li a:hover{
-	background-color:#bbb
+	background-image:-ms-linear-gradient(top,#aaa 0%,#ccc 50%,#aaa 100%);
+	background-image:-moz-linear-gradient(top,#aaa 0%,#ccc 50%,#aaa 100%);
+	background-image:-o-linear-gradient(top,#aaa 0%,#ccc 50%,#aaa 100%);
+	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#aaa),color-stop(1,#ccc),color-stop(2,#aaa)));
+	background-image:-webkit-linear-gradient(top,#aaa 0%,#ccc 50%,#aaa 100%);
+	background-image:linear-gradient(to bottom,#aaa 0%,#ccc 50%,#aaa 100%)
 }
 
 #main_nav li a{
-	background-color:#ddd
+    background-color: #ccc;
 }

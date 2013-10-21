@@ -9,8 +9,9 @@
 </head>
 
 <body>
+<?php include 'header.php'; ?>
 	<div id="content">
-		<?php include 'header.php'; ?>
+		
 		<div id="sub_content">
 		<center>
 			<div id="kearsarge"><img src="images/mount_kear.jpg"></img></div>
@@ -51,9 +52,9 @@
 			of ramp - 1 mile on the right. 
 		</div>
 					
-	<?php include 'footer.php'; ?>
+	
 	</div>
-
+<?php include 'footer.php'; ?>
 </body>
 
 </html>

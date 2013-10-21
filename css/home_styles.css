@@ -3,3 +3,17 @@
 	margin-left: 800px;
 	margin-top: -10px;
 }
+
+#profileImg{
+	width:200px
+}
+
+#agentProfile{
+	width:250px;
+	margin-right:50px;
+	display:inline-block;
+	padding:15px;
+	border:solid;
+	border-color:#aaa;
+	border-width:3px
+}
