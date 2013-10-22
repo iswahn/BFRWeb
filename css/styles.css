@@ -6,28 +6,28 @@ body{
 }
 
 #content{
-	width:1300px;
-	min-height:75%;
-	margin-top:20px;
-	margin-bottom:20px;
+	width:1000px;
+	min-height:100%;
 	margin-left:auto;
 	margin-right:auto
 }
 
 #callUs{
 	font-style:italic;
-	margin-left:1000px;
+	margin-left:725px;
 	margin-top:-100px
 }
 
 #sub_content{
-	width:1300px;
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 	padding-left:10px;
 	padding-right:10px;
-	border: #ccc;
-	border-width: 2px;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:#ccc;
+	border-width:2px;
 	border-left-style:solid;
 	border-right-style:solid;
 }
@@ -35,19 +35,14 @@ body{
 #header_frame{
 	width:100%;
 	padding-top:1px;
-	background-image: -ms-linear-gradient(top, #999999 0%, #EEEEEE 100%);
-	background-image: -moz-linear-gradient(top, #999999 0%, #EEEEEE 100%);
-	background-image: -o-linear-gradient(top, #999999 0%, #EEEEEE 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #999999), color-stop(1, #EEEEEE));
-	background-image: -webkit-linear-gradient(top, #999999 0%, #EEEEEE 100%);
-	background-image: linear-gradient(to bottom, #999999 0%, #EEEEEE 100%);
+    background-color:#dddddd;
 }
 
 #header_content{
 	height:100px;
-	width:1300px;
+	width:1000px;
 	margin-left:auto;
-	margin-right:auto
+	margin-right:auto;
 }
 
 #subnote{
@@ -57,13 +52,8 @@ body{
 }
 
 #footer{
-	background-image: -ms-linear-gradient(bottom, #999999 0%, #EEEEEE 100%);
-	background-image: -moz-linear-gradient(bottom, #999999 0%, #EEEEEE 100%);
-	background-image: -o-linear-gradient(bottom, #999999 0%, #EEEEEE 100%);
-	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #999999), color-stop(1, #EEEEEE));
-	background-image: -webkit-linear-gradient(bottom, #999999 0%, #EEEEEE 100%);
-	background-image: linear-gradient(to top, #999999 0%, #EEEEEE 100%);
+	background-color:#ddd;
 	position:absolute;
 	width:100%;
-	height:100px
+	height:100px;
 }

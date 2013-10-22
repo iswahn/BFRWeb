@@ -1,4 +1,4 @@
-		<span id="footer">
+		<div id="footer">
 			<p align=center>
 				<strong>&copy; Brown Family Realty</strong><br>
 				PO Box 61, 8 East Main Street, Warner, NH 03278<br>
@@ -12,4 +12,4 @@
          <noscript>
          </noscript>
 			</p>
-		</span>
+		</div>

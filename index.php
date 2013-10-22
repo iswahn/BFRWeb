@@ -8,9 +8,8 @@
 </head>
 <body>
 	<?php include 'header.php'; ?>
+	<?php include 'navigation.php'; ?>
 	<div id="content">
-		
-
 		<div id="sub_content">
 			<p>We are New Hampshire natives welcoming "new-comers" to Warner and the surrounding area. 
 			We take great pride in placing families in suitable homes with emphasis on bringing buyer 

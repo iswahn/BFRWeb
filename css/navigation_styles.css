@@ -1,29 +1,30 @@
+#navigation{
+	width:100%
+}
+
 #main_nav{
-	margin-left:600px;
-	margin-top:-50px
+	margin: 0; 
+	padding: 5px;
+	list-style-type: none; 
+	text-align: center; 
+	background-color:#cccccc;
 }
 
 #main_nav li{
-	float:left;
-	list-style-type:none
+	display:inline;
 }
 
 #main_nav li a{
 	font-size:16px;
 	color:#000;
 	text-decoration:none;
-	padding:8px 15px
+	padding:5px 15px
 }
 
 #main_nav li a.active,#main_nav li a:hover{
-	background-image:-ms-linear-gradient(top,#aaa 0%,#ccc 50%,#aaa 100%);
-	background-image:-moz-linear-gradient(top,#aaa 0%,#ccc 50%,#aaa 100%);
-	background-image:-o-linear-gradient(top,#aaa 0%,#ccc 50%,#aaa 100%);
-	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#aaa),color-stop(1,#ccc),color-stop(2,#aaa)));
-	background-image:-webkit-linear-gradient(top,#aaa 0%,#ccc 50%,#aaa 100%);
-	background-image:linear-gradient(to bottom,#aaa 0%,#ccc 50%,#aaa 100%)
+	background-color:#aaaaaa;
 }
 
 #main_nav li a{
-    background-color: #ccc;
+	background-color:#ccc
 }

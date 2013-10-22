@@ -13,9 +13,8 @@
 </head>
 <body>
 <?php include 'header.php'; ?>
+<?php include 'navigation.php'; ?>
 	<div id="content">
-		
-		
 		<div id="sub_content">
 		<?php
 			buildFeaturedListings('images');
