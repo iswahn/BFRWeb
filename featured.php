@@ -33,9 +33,10 @@
 				$mls = getDescription($dirName);
 				echo '</div>';
 
-				echo '<a href="listings.php?mls='.$mls.'"><div class="myslides">';
-				getImages($dirName);
-				echo '</div></a>';
+				echo '<div class="myslides">';
+				getImages($dirName, $mls);
+				echo '</div>';
+				echo "<div id='mlsNum'>Listing ID: ".$mls."</div>";
 					
 				echo '<p style="clear: both"></p>';
 				echo '</div>';
@@ -43,11 +44,13 @@
 			}
 		}
 		
-		function getImages($path)
+		function getImages($path, $mls)
 		{
 			foreach (glob($path . "/*.jpg") as $filename)
 			{
-				echo '<img id="slideImg" src="' . $filename . '"/>';	   
+				echo '<a href="listings.php?mls='.$mls.'">';
+				echo '<img id="slideImg" src="' . $filename . '"/>';
+				echo '</a>';	   
 			}
 		}
 		
