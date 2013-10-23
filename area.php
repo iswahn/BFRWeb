@@ -16,10 +16,10 @@
 		<div id="sub_content">
 		<center>
 			<div id="kearsarge"><img src="images/mount_kear.jpg"></img></div>
-			<p id="subtext">Mount Kearsarge</p></center>
+			<div id="subtext">Mount Kearsarge</div></center>
 			
-			The <a href="http://www.warner.nh.us/">Warner, New Hampshire</a> area is filled with 
-			all kinds of things to do. Below are just a few of the many ways to enjoy the area and what it has to offer. 
+			<p>The <a href="http://www.warner.nh.us/">Warner, New Hampshire</a> area is filled with 
+			all kinds of things to do. Below are just a few of the many ways to enjoy the area and what it has to offer.</p>
 			
 			<ul>
 				<li><a href="http://www.warnersports.org/">Warner Youth Sports Association</a> teams include baseball, softball, soccer, basketball, football and cheerleading.</li>
@@ -45,12 +45,10 @@
 				<li><span style='mso-bidi-font-size:18.0pt'><a href="http://www.nhes.nh.gov/elmi/products/cp/profiles-htm/warner.htm">Warner Statistics</a></span></li>
 			</ul>
 			
-			Warner - all turnpike to Concord Jct. I-93 and I-89. South I-93, minutes to: Manchester 30, Nashua 50 and Boston 1.5 hours. North I-89, minutes to: New London 15, 
-			Lebanon and White River Jct. 35, Hanover 45, Canada 2.5 hours and Newport R.I. 3 hours.
-			<br /><br />
-			Call us at 603-456-3000 to make an appointment or stop by our office at 8 East Main Street, Warner, NH 03278. From the south, take I-89 north, exit 8 - left @ end 
-			of ramp - right @ stop, onto Rt. 103 west - continue 1 mile - white colonial on left across from the town hall. From the north, take I-89 south, exit 9 - left @ end 
-			of ramp - 1 mile on the right. 
+			<p>Warner - all turnpike to Concord Jct. I-93 and I-89. South I-93, minutes to: Manchester 30, Nashua 50 and Boston 1.5 hours. North I-89, minutes to: New London 15, 
+			Lebanon and White River Jct. 35, Hanover 45, Canada 2.5 hours and Newport R.I. 3 hours.</p>
+			
+			<p>From the south, take I-89 north, exit 8 - left @ end of ramp - right @ stop, onto Rt. 103 west - continue 1 mile - white colonial on left across from the town hall. From the north, take I-89 south, exit 9 - left @ end of ramp - 1 mile on the right.</p>
 		</div>
 					
 	

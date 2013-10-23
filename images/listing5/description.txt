@@ -1,0 +1,6 @@
+<div id="headline">1790 HIP ROOF COLONIAL</div>
+<div id="description">1790 Post & Beam Hip Roof Colonial on 4.3 nice stonewalled acres. Lawns cascading to a beautiful stream below. Dipping pools here & there & great tubbing or shallow beam kayaking - what fun! Many rooms with early ERA paneled walls, large gunstock corners, all pine floors. This is in Excellent Condition, an easy keeper. Be a part of Warner life, yet only 14 miles on I-89, on a super safe loop for kids & animals. A lot of value in this price range.</div>
+<div id="price">$256,500</div>
+<?php
+   $mls = 4200005;
+?>

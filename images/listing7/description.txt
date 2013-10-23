@@ -1,0 +1,6 @@
+<div id="headline">4 BEDROOM RANCH - CONCORD - Sold</div>
+<div id="description">Tastefully Renovated Sewalls Falls Home. Two New Granite Kitchens. Two New Full Baths. Beautiful Floors Throughout. Bright Finished Walk-out Basement with Granite Kitchen, Spacious Family Room, Bedroom & Full Bath. Large Deck Overlooks Backyard with Meandering Brook for Summer fun. All New Systems. Abuts Beaver Meadow Golf Course.</div>
+<div id="price">$205,000</div>
+<?php
+   $mls = 4200007;
+?>

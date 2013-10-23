@@ -1,0 +1,11 @@
+1) Waiting on new IDX to integrate listings.
+2) Need to figure out how to set up Mail server to send contact info using PHP. (Set up now, just not sending.) (need to change from my email once tested)
+3) Need REAL pictures to create a slide show on the home page.
+4) Need pictures of Nonny, Sha, and Steve for Our Agents section
+5) DONE - Need current featured listings pictures from production. Get all featured listings started for release.
+6) Work on sticky footer.
+7) Clean up broken links on area info page.
+8) DONE - figure out where to add the google map (Contact Us?)
+9) DONE - Figure out how to get MLS number into featured page.
+
+

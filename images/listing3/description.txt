@@ -1,4 +1,7 @@
 <div id="headline">UNIQUE, SOLID CONTEMPORARY ON 24 ACRES</div>
 <div id="description">Very unique, Large Solid CONTEMPORARY, privately sited on 24 (surveyed) Acres w/Stone Walls.  This retired owner completely upgraded to triple windows & heat efficiency to a fully maintenance free exterior... Rooms are spacious, light & bright.  MINT w/open concept to balconies, rooms & vaulted ceilings throughout.  A super walk-out basement w/great guest suite, game room & your own bath.  Visitors private paradise!! Super over sized garage... Great family compound in your own private woodland. Address & property frontage is in Warner, the private drive passes over the Salisbury line to the buildings.</div>
 <div id="price">$325,000</div>
+<?php
+   $mls = 4200003;
+?>
               

@@ -1,20 +1,39 @@
 #welcome_subnote{
 	font-style:italic;
-	margin-left: 800px;
+	margin-left: 600px;
 	margin-top: -10px;
 }
 
 #profileImg{
-	width:200px
+	width:200px;
+	border-style:solid;
+	border-width:3px;
+	border-color:#ccc;
+	border-radius:10px;
 }
 
 #agentProfile{
 	width:250px;
 	display:inline-block;
-	padding:20px;
+	padding:25px;
+	margin:10px;
 	border:solid;
 	border-color:#ccc;
 	border-width:3px;
-	margin-left:auto;
-	margin-right:auto;
+	border-radius:10px;
+}
+
+.myslides{
+	height:250px;
+	width:1000px;
+}
+
+#slideImg{
+	height:250px;
+	width:1000px;
+	border-style:solid;
+	border-width:3px;
+	border-color:#ccc;
+	border-radius:10px;
+	position:fixed;
 }
