@@ -12,27 +12,27 @@
 	<div id="content">
 		<div id="sub_content">
 		<?php
-			if(isset($_POST['email'])) {
+			if(isset($_GET['email'])) {
 				$email_to = "ianswahn@gmail.com";
 				$email_subject = "testing";
 				 
-				$name = $_POST['name'];
-				$email = $_POST['email'];
-				$address = $_POST['address']; 
-				$city = $_POST['city']; 
-				$state = $_POST['state']; 
-				$zip = $_POST['zip'];
-				$phone = $_POST['phone'];
+				$name = $_GET['name'];
+				$email = $_GET['email'];
+				$address = $_GET['address'];
+				$city = $_GET['city']; 
+				$state = $_GET['state']; 
+				$zip = $_GET['zip'];
+				$phone = $_GET['phone'];
 				
-				$location = $_POST['location'];
-				$min = $_POST['min_range'];
-				$max = $_POST['max_range'];
-				$rooms = $_POST['rooms'];
-				$bedrooms = $_POST['bedrooms'];
-				$bathrooms = $_POST['bathrooms'];
-				$acreage = $_POST['acreage'];
-				$style = $_POST['style'];
-				$comments = $_POST['comments'];				
+				$location = $_GET['location'];
+				$min = $_GET['min_range'];
+				$max = $_GET['max_range'];
+				$rooms = $_GET['rooms'];
+				$bedrooms = $_GET['bedrooms'];
+				$bathrooms = $_GET['bathrooms'];
+				$acreage = $_GET['acreage'];
+				$style = $_GET['style'];
+				$comments = $_GET['comments'];				
 				
 				 
 				$email_message = "Form details below.\n\n";
@@ -44,17 +44,16 @@
 				 
 				$email_message .= "Name: ".clean_string($name)."\n";
 				$email_message .= "Email: ".clean_string($email)."\n";
-				$email_message .= "Current Address: ".clean_string($address)." ".clean_string($city).", ".clean_string($state)." ".clean_string($zip)."\n";
+				$email_message .= "Current Address: ".clean_string($address).", ".clean_string($city).", ".clean_string($state)." ".clean_string($zip)."\n";
 				$email_message .= "Telephone: ".clean_string($phone)."\n\n";
 				$email_message .= "Looking for a place in: ".clean_string($location)."\n";
 				$email_message .= "Between the prices of: ".clean_string($min)." and ".clean_string($max)."\n";
 				$email_message .= "Number of rooms: ".clean_string($rooms)."\n";
 				$email_message .= "Number of bedrooms: ".clean_string($bedrooms)."\n";
 				$email_message .= "Number of bathrooms: ".clean_string($bathrooms)."\n";
-				$email_message .= "Number of acres: ".clean_string($acres)."\n";
+				$email_message .= "Number of acres: ".clean_string($acreage)."\n";
 				$email_message .= "Style of house: ".clean_string($style)."\n";
 				$email_message .= "User Comments: ".clean_string($comments)."\n";
-				 
 				 
 				// create email headers
 				$headers = 'From: '.$email_from."\r\n".

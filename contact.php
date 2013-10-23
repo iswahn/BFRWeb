@@ -18,7 +18,7 @@
 
 		<p>In order for us to better serve your needs, please take a moment to provide us with the information below. Fields marked with a * are required</p>	
 		
-		<form name="contact_form" action="mailto:ianswahn@gmail.com" method="post" enctype="text/plain">
+		<form name="contact_form" action="thanks.php" method="get" enctype="text/plain">
 			<fieldset>
 			<legend>About you</legend>
 			<div id="contact_div">
@@ -67,7 +67,7 @@
 					</tr>
 					<tr>
 						<td><select name="location" id="dropdown">
-						<option value="All">No Preference</option>
+						<option value="No Preference">No Preference</option>
 							<option value="Bradford">Bradford NH</option>
 							<option value="Contoocook">Contoocook NH</option>
 							<option value="Hopkinton">Hopkinton NH</option>
@@ -79,95 +79,95 @@
 							<option value="Webster">Webster NH</option>
 						</select></td>
 						<td><select name="min_range" id="dropdown_price">
-						<option value="0">No Minimum</option>
-							<option value="25" >$25,000</option>
-							<option value="50" >$50,000</option>
-							<option value="60" >$60,000</option>
-							<option value="70" >$70,000</option>
-							<option value="80" >$80,000</option>
-							<option value="90" >$90,000</option>
-							<option value="100" >$100,000</option>
-							<option value="125" >$125,000</option>
-							<option value="150" >$150,000</option>
-							<option value="175" >$175,000</option>
-							<option value="200" >$200,000</option>
-							<option value="250" >$250,000</option>
-							<option value="300" >$300,000</option>
-							<option value="350" >$350,000</option>
-							<option value="400" >$400,000</option>
-							<option value="450" >$450,000</option>
-							<option value="500" >$500,000</option>
-							<option value="550" >$550,000</option>
-							<option value="600" >$600,000</option>
-							<option value="650" >$650,000</option>
-							<option value="700" >$700,000</option>
-							<option value="750" >$750,000</option>
-							<option value="800" >$800,000</option>
-							<option value="850" >$850,000</option>
-							<option value="900" >$900,000</option>
-							<option value="950" >$950,000</option>
-							<option value="1000" >$1,000,000</option>
-							<option value="1100" >$1,100,000</option>
-							<option value="1200" >$1,200,000</option>
-							<option value="1300" >$1,300,000</option>
-							<option value="1400" >$1,400,000</option>
-							<option value="1500" >$1,500,000</option>
-							<option value="1750" >$1,750,000</option>
-							<option value="2000" >$2,000,000</option>
-							<option value="3000" >$3,000,000</option>
-							<option value="4000" >$4,000,000</option>
-							<option value="5000" >$5,000,000</option>
-							<option value="6000" >$6,000,000</option>
-							<option value="7000" >$7,000,000</option>
-							<option value="8000" >$8,000,000</option>
-							<option value="9000" >$9,000,000</option>
-							<option value="10000" >$10,000,000</option>
+						<option value="No Minimum">No Minimum</option>
+							<option value="25,000" >$25,000</option>
+							<option value="50,000" >$50,000</option>
+							<option value="60,000" >$60,000</option>
+							<option value="70,000" >$70,000</option>
+							<option value="80,000" >$80,000</option>
+							<option value="90,000" >$90,000</option>
+							<option value="100,000" >$100,000</option>
+							<option value="125,000" >$125,000</option>
+							<option value="150,000" >$150,000</option>
+							<option value="175,000" >$175,000</option>
+							<option value="200,000" >$200,000</option>
+							<option value="250,000" >$250,000</option>
+							<option value="300,000" >$300,000</option>
+							<option value="350,000" >$350,000</option>
+							<option value="400,000" >$400,000</option>
+							<option value="450,000" >$450,000</option>
+							<option value="500,000" >$500,000</option>
+							<option value="550,000" >$550,000</option>
+							<option value="600,000" >$600,000</option>
+							<option value="650,000" >$650,000</option>
+							<option value="700,000" >$700,000</option>
+							<option value="750,000" >$750,000</option>
+							<option value="800,000" >$800,000</option>
+							<option value="850,000" >$850,000</option>
+							<option value="900,000" >$900,000</option>
+							<option value="950,000" >$950,000</option>
+							<option value="1,000,000" >$1,000,000</option>
+							<option value="1,100,000" >$1,100,000</option>
+							<option value="1,200,000" >$1,200,000</option>
+							<option value="1,300,000" >$1,300,000</option>
+							<option value="1,400,000" >$1,400,000</option>
+							<option value="1,500,000" >$1,500,000</option>
+							<option value="1,750,000" >$1,750,000</option>
+							<option value="2,000,000" >$2,000,000</option>
+							<option value="3,000,000" >$3,000,000</option>
+							<option value="4,000,000" >$4,000,000</option>
+							<option value="5,000,000" >$5,000,000</option>
+							<option value="6,000,000" >$6,000,000</option>
+							<option value="7,000,000" >$7,000,000</option>
+							<option value="8,000,000" >$8,000,000</option>
+							<option value="9,000,000" >$9,000,000</option>
+							<option value="10,000,000" >$10,000,000</option>
 						</select>
 						TO 
 						<select name="max_range" id="dropdown_price">
-						<option value="0">No Maximum</option>
-							<option value="25" >$25,000</option>
-							<option value="50" >$50,000</option>
-							<option value="60" >$60,000</option>
-							<option value="70" >$70,000</option>
-							<option value="80" >$80,000</option>
-							<option value="90" >$90,000</option>
-							<option value="100" >$100,000</option>
-							<option value="125" >$125,000</option>
-							<option value="150" >$150,000</option>
-							<option value="175" >$175,000</option>
-							<option value="200" >$200,000</option>
-							<option value="250" >$250,000</option>
-							<option value="300" >$300,000</option>
-							<option value="350" >$350,000</option>
-							<option value="400" >$400,000</option>
-							<option value="450" >$450,000</option>
-							<option value="500" >$500,000</option>
-							<option value="550" >$550,000</option>
-							<option value="600" >$600,000</option>
-							<option value="650" >$650,000</option>
-							<option value="700" >$700,000</option>
-							<option value="750" >$750,000</option>
-							<option value="800" >$800,000</option>
-							<option value="850" >$850,000</option>
-							<option value="900" >$900,000</option>
-							<option value="950" >$950,000</option>
-							<option value="1000" >$1,000,000</option>
-							<option value="1100" >$1,100,000</option>
-							<option value="1200" >$1,200,000</option>
-							<option value="1300" >$1,300,000</option>
-							<option value="1400" >$1,400,000</option>
-							<option value="1500" >$1,500,000</option>
-							<option value="1750" >$1,750,000</option>
-							<option value="2000" >$2,000,000</option>
-							<option value="3000" >$3,000,000</option>
-							<option value="4000" >$4,000,000</option>
-							<option value="5000" >$5,000,000</option>
-							<option value="6000" >$6,000,000</option>
-							<option value="7000" >$7,000,000</option>
-							<option value="8000" >$8,000,000</option>
-							<option value="9000" >$9,000,000</option>
-							<option value="10000" >$10,000,000</option>
+						<option value="No Maximum">No Maximum</option>
+							<option value="25,000" >$25,000</option>
+							<option value="50,000" >$50,000</option>
+							<option value="60,000" >$60,000</option>
+							<option value="70,000" >$70,000</option>
+							<option value="80,000" >$80,000</option>
+							<option value="90,000" >$90,000</option>
+							<option value="100,000" >$100,000</option>
+							<option value="125,000" >$125,000</option>
+							<option value="150,000" >$150,000</option>
+							<option value="175,000" >$175,000</option>
+							<option value="200,000" >$200,000</option>
+							<option value="250,000" >$250,000</option>
+							<option value="300,000" >$300,000</option>
+							<option value="350,000" >$350,000</option>
+							<option value="400,000" >$400,000</option>
+							<option value="450,000" >$450,000</option>
+							<option value="500,000" >$500,000</option>
+							<option value="550,000" >$550,000</option>
+							<option value="600,000" >$600,000</option>
+							<option value="650,000" >$650,000</option>
+							<option value="700,000" >$700,000</option>
+							<option value="750,000" >$750,000</option>
+							<option value="800,000" >$800,000</option>
+							<option value="850,000" >$850,000</option>
+							<option value="900,000" >$900,000</option>
+							<option value="950,000" >$950,000</option>
+							<option value="1,000,000" >$1,000,000</option>
+							<option value="1,100,000" >$1,100,000</option>
+							<option value="1,200,000" >$1,200,000</option>
+							<option value="1,300,000" >$1,300,000</option>
+							<option value="1,400,000" >$1,400,000</option>
+							<option value="1,500,000" >$1,500,000</option>
+							<option value="1,750,000" >$1,750,000</option>
+							<option value="2,000,000" >$2,000,000</option>
+							<option value="3,000,000" >$3,000,000</option>
+							<option value="4,000,000" >$4,000,000</option>
+							<option value="5,000,000" >$5,000,000</option>
+							<option value="6,000,000" >$6,000,000</option>
+							<option value="7,000,000" >$7,000,000</option>
+							<option value="8,000,000" >$8,000,000</option>
+							<option value="9,000,000" >$9,000,000</option>
+							<option value="10,000,000" >$10,000,000</option>
 						</select></td>
 					</tr>
 					<tr>
@@ -176,7 +176,7 @@
 					</tr>
 					<tr>
 						<td><select name="rooms" id="dropdown">
-						<option value="0">No Preference</option>
+						<option value="No Preference">No Preference</option>
 							<option value="1-4">1-4</option>
 							<option value="5-7">5-7</option>
 							<option value="8-10">8-10</option>
@@ -184,7 +184,7 @@
 							<option value="14+">14+</option>
 						</select></td>
 						<td><select name="bedrooms" id="dropdown">
-						<option value="0">No Preference</option>
+						<option value="No Preference">No Preference</option>
 							<option value="1"  >1</option>
 							<option value="2"  >2</option>
 							<option value="3"  >3</option>
@@ -199,14 +199,14 @@
 					</tr>
 					<tr>
 						<td><select name="bathrooms" id="dropdown">
-							<option value="0">No Preference</option>
+							<option value="No Preference">No Preference</option>
 							<option value="1"  >1</option>
 							<option value="2"  >2</option>
 							<option value="3"  >3</option>
 							<option value="4"  >4</option>
 						</select></td>
 						<td><select name="acreage" id="dropdown">
-							<option value="0">No Preference</option>
+							<option value="No Preference">No Preference</option>
 							<option value=".25" >1/4 Acre</option>
 							<option value=".5" >1/2 Acre</option>
 							<option value=".75" >3/4 Acre</option>
