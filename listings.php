@@ -11,7 +11,7 @@
 	<?php include 'navigation.php'; ?>
 	<div id="content">
 		<div id="sub_content">
-
+			<iframe name="main" src="http://nh.agentave.com/v12/index.php?cid=1134" width="970px" height="2550px" scrolling="no" frameborder=0 seamless="seamless"></iframe>
 		</div>
 	</div>
 	<?php include 'footer.php'; ?>
