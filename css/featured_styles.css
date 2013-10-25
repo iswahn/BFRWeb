@@ -12,6 +12,7 @@
 #price{
 	font-weight:bold;
 	margin-top:15px;
+	float:right;
 }
 	
 #mlsNum{
