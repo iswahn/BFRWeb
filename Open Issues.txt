@@ -7,3 +7,5 @@
 	a) Create site maps
 	b) Create a useful 404 page (possible?)
 	c) rel="nofollow" on area information page
+11) Enhance slide shows to look for png and gif
+12) Enhance slide shows to look for case insensitive files
