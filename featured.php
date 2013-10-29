@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta NAME="description" CONTENT= "Take a look at our hand-picked featured properties. These listings are sure to peak your interest.">
+<meta NAME="keywords" CONTENT= "Real Estate, Warner NH, Realty, Warner, NH, NH Warner, MLS, Realtor, Warner Real Estate, Sutton Real Estate, Bradford Real Estate, Hopkinton Real Estate, Central NH Real Estate, homes, country, historic, NH, antique, property, residential, community, rural, Concord area, Warner, school, Kearsarge, older, cape, build, village">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/navigation_styles.css">
 <link rel="stylesheet" type="text/css" href="css/featured_styles.css">
@@ -9,7 +11,8 @@
 <script src="js/jquery.cycle.lite.js" type="text/javascript"></script>
 <script type="text/javascript">$(document).ready(function(){$('.myslides').cycle({fit:1,timeout:4000});});</script>
 <?php $page="Featured Listings"?>
-<title>Brown Family Realty - <?php echo $page?></title>
+<?php $tagline="Featured Residential Properties"?>
+<title>Brown Family Realty - <?php echo $tagline?></title>
 </head>
 <body>
 <?php include 'header.php'; ?>

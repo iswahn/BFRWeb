@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta NAME="description" CONTENT= "Tell us more about yourself and what you're looking for so we can better serve your needs.">
+<meta NAME="keywords" CONTENT= "Real Estate, Warner NH, Realty, Warner, NH, NH Warner, MLS, Realtor, Warner Real Estate, Sutton Real Estate, Bradford Real Estate, Hopkinton Real Estate, Central NH Real Estate, homes, country, historic, NH, antique, property, residential, community, rural, Concord area, Warner, school, Kearsarge, older, cape, build, village">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/navigation_styles.css">
 <link rel="stylesheet" type="text/css" href="css/contact_styles.css">
 <?php $page="Contact Us"?>
-<title>Brown Family Realty - <?php echo $page?></title>
+<?php $tagline="Contact Us"?>
+<title>Brown Family Realty - <?php echo $tagline?></title>
 </head>
 <body>
 <?php include 'header.php'; ?>

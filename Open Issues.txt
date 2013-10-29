@@ -4,3 +4,6 @@
 4) Need pictures of Nonny, Sha, and Steve for Our Agents section
 7) Clean up broken links on area info page.
 10) Search Engine Optimization
+	a) Create site maps
+	b) Create a useful 404 page (possible?)
+	c) rel="nofollow" on area information page

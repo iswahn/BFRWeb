@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta NAME="description" CONTENT= "Take a look at the exciting trails, events, and entertainment opportunities in our area.">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/navigation_styles.css">
 <link rel="stylesheet" type="text/css" href="css/area_styles.css">
 <?php $page="Area Info"?>
-<title>Brown Family Realty - <?php echo $page?></title>
+<?php $tagline="Area Information"?>
+<title>Brown Family Realty - <?php echo $tagline?></title>
 </head>
 
 <body>
