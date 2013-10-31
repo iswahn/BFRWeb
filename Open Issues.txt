@@ -1,8 +1,5 @@
-1) Waiting on new IDX to integrate listings.
 2) Need to figure out how to set up Mail server to send contact info using PHP. (Set up now, just not sending.) (need to change from my email once tested)
-3) Need REAL pictures to create a slide show on the home page.
 4) Need pictures of Nonny, Sha, and Steve for Our Agents section
-7) Clean up broken links on area info page.
 10) Search Engine Optimization
 	a) Create site maps
 	b) Create a useful 404 page (possible?)

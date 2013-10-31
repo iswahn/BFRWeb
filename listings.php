@@ -12,9 +12,19 @@
 <body>
 	<?php include 'header.php'; ?>
 	<?php include 'navigation.php'; ?>
+	<?php
+		$siteBase = "http://www.nneren.com/nneren_frame/";
+		$siteEnd = "search.php?state=NH";
+		if(isset($_GET['mls'])) {
+			$siteEnd = "listing_detail.html?id=".$_GET['mls']."&return=1";
+		}
+		
+		$site = $siteBase.$siteEnd;
+		
+	?>
 	<div id="content">
 		<div id="sub_content">
-			<iframe name="main" src="http://nh.agentave.com/v12/index.php?cid=1134" width="970px" height="2550px" scrolling="no" frameborder=0 seamless="seamless"></iframe>
+			<iframe name="main" src="<?php echo $site?>" width="100%" height="2200px" scrolling="auto" frameborder=0 seamless="seamless"></iframe>
 		</div>
 	</div>
 	<?php include 'footer.php'; ?>

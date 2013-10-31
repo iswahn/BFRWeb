@@ -15,3 +15,7 @@
 #subtext{
 	font-weight: bold;
 }
+
+#area_list li{
+    padding:10px;
+}

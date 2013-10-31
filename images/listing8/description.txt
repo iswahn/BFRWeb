@@ -1,6 +1,0 @@
-<div id="headline">BUY, RENT OR RENT PURCHASE - FULLY RESTORED BEAUTY</div>
-<div id="description">PRICED FAR BELOW INVESTMENT ~ 1826 Nehemiah Ordway Homestead – “Stately Poised Above The Covered Bridge & RXR Station Of Waterloo” On The National Registry Of Historic Places. Beautifully Restored Classic with every Detail focusing on Antiquity, Soapstone in Kit & Baths, Elegant Cabinetry, Fireplaces, French Doors, Beautiful Wide Pine Flooring, fabulous Pantry, 143’ Lg Wrap Around Porch, Nicely Landscaped throughout Granite Retaining Walls, 49x28 & 25x25 3-Story Barn. River Pond ~ Winter skating w/cookouts ~ Prestigious, MINT. "A Must See"</div>
-<div id="price">$499,000</div>
-<?php
-   $mls = 4200008;
-?>

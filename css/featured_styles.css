@@ -5,13 +5,14 @@
 }
 
 #headline{
-	color:#33f;
+	color:#106cb7;
 	font-weight:bold
 }
 
 #price{
 	font-weight:bold;
 	margin-top:15px;
+	color:#555;
 	float:right;
 }
 	
@@ -42,4 +43,18 @@ hr{
 	border-width:3px;
 	border-color:#ccc;
 	border-radius:10px;
+}
+
+#viewButton{
+    background-color: #d8d8d8;
+    text-align: center;
+    padding: 5px;
+    border-style: solid;
+    border-color: #bbbbbb;
+}
+
+#viewLink{
+    text-decoration:none;
+    color: #222222;
+    font-size:13px;
 }

@@ -17,7 +17,7 @@
 		
 		<div id="sub_content">
 		
-		<p>Call us at 603-456-3000 to make an appointment or stop by our office at 8 East Main Street, Warner, NH 03278. <a href="https://www.google.com/maps?t=m&amp;q=Brown+Family+Realty,+East+Main+Street,+Warner,+NH&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=43.281392,-71.81282&amp;spn=0.02187,0.036478&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">Click here to get directions using Google Maps</a>.</p>
+		<p>Call us at 603-456-3000 to make an appointment or stop by our office at 8 East Main Street, Warner, NH 03278. <a href="https://www.google.com/maps?q=8+East+Main+Street,+Warner,+NH&hl=en&sll=43.281392,-71.81282&sspn=0.055674,0.111494&hnear=8+E+Main+St,+Warner,+New+Hampshire+03278&t=m&z=17" style="color:#0000FF;text-align:left">Click here to get directions using Google Maps</a>.</p>
 
 		<p>In order for us to better serve your needs, please take a moment to provide us with the information below. Fields marked with a * are required</p>	
 		

@@ -23,7 +23,7 @@
 			<p>The <a href="http://www.warner.nh.us/">Warner, New Hampshire</a> area is filled with 
 			all kinds of things to do. Below are just a few of the many ways to enjoy the area and what it has to offer.</p>
 			
-			<ul>
+			<ul id="area_list">
 				<li><a href="http://www.warnersports.org/">Warner Youth Sports Association</a> teams include baseball, softball, soccer, basketball, football and cheerleading.</li>
 				<li><a href="http://www.nhstateparks.com/rollins.html">Rollins State Park on Mt. Kearsarge</a> - From the center of town Mt. Kearsarge Road climbs almost 
 					to the 2937' to the summit.&nbsp; There's a short hike to the tower at the top of the mountain.</li>
@@ -37,20 +37,28 @@
 				<li>The <a href="http://www.warnerhistorical.org/">Warner Historical Society</a> is comprised of all volunteers, working hard to keep Warner's heritage alive.</li>
 				<li><a href="http://www.indianmuseum.org/">Mt. Kearsarge Indian Museum</a> - Education and Cultural Center boost 15,000 years of the history of native people.</li>
 				<li><a href="http://www.nhtelephonemuseum.com/">New Hampshire Telephone Museum</a> - Discover over 130 years of telephone history.</li>
-				<li>A multitude of well-known <a href="http://www.warner.lib.nh.us/artlist.htm">craftsmen, artists</a>, <a href="http://www.warner.lib.nh.us/warnerau.htm">illustrators,
+				<li>A multitude of well-known <a href="http://www.warner.lib.nh.us/warner-links/artists-and-crafts-people-of-warner-n-h/">craftsmen, artists</a>, <a href="http://www.warner.lib.nh.us/warner-links/writers-and-illustrators-of-warner/">illustrators,
 					writers, and  poets</a> reside in Warner.</li>
 				<li><a href="http://www.wfff.org/">Warner Fall Foliage Festival</a> has been the focus of a well-organized autumn celebration for over 50 years, attracting 
 					thousands.&nbsp; It's awesome undertaking reveals Warner's Unique Community Spirit.</li>
-				<li><a href="http://www.kearsarge.k12.nh.us/">Kearsarge Regional Schools</a> offer excellent academics and full sports programs.</li>
+				<li><a href="http://www.kearsarge.org/">Kearsarge Regional Schools</a> offer excellent academics and full sports programs.</li>
 				<li><a href="http://KearsargeChamber.org/">Kearsarge Area Chamber of Commerce</a>, <span style='mso-bidi-font-size:18.0pt'>promoting the economic development 
 					of the towns around Mt Kearsarge.</span></li>
 				<li><span style='mso-bidi-font-size:18.0pt'><a href="http://www.nhes.nh.gov/elmi/products/cp/profiles-htm/warner.htm">Warner Statistics</a></span></li>
 			</ul>
 			
-			<p>Warner - all turnpike to Concord Jct. I-93 and I-89. South I-93, minutes to: Manchester 30, Nashua 50 and Boston 1.5 hours. North I-89, minutes to: New London 15, 
-			Lebanon and White River Jct. 35, Hanover 45, Canada 2.5 hours and Newport R.I. 3 hours.</p>
-			
-			<p>From the south, take I-89 north, exit 8 - left @ end of ramp - right @ stop, onto Rt. 103 west - continue 1 mile - white colonial on left across from the town hall. From the north, take I-89 south, exit 9 - left @ end of ramp - 1 mile on the right.</p>
+			Warner - all turnpike to Concord Jct. I-93 and I-89.<br />
+			South on I-93: <br />
+			Manchester - 30 minutes<br />
+			Nashua - 50 minutes<br />
+			Boston - 1.5 hours<br />
+			Newport R.I. - 3 hours<br />
+			<br />
+			North on I-89:<br />
+			New London - 15 minutes<br />
+			Lebanon and White River Jct. - 35 minutes<br /> 
+			Hanover - 45 minutes<br />
+			Canada - 2.5 hours<br />
 		</div>
 					
 	
