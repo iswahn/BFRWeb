@@ -16,9 +16,9 @@
 
 #main_nav li a{
 	font-size:16px;
-	color:#000;
+	color:#333;
 	text-decoration:none;
-	padding:6px 15px 5px
+	padding:5px 15px
 }
 
 #main_nav li a.active,#main_nav li a:hover{

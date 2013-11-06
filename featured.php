@@ -54,7 +54,9 @@ $('.fancybox-thumbs15').fancybox({prevEffect:'fade',nextEffect:'fade',closeBtn:t
 	<?php
 		function buildFeaturedListings($path)
 		{
-			echo '<hr></hr>';
+			echo "<center><img src='images/magnify.jpg'></img></center>";
+			echo "<hr />";
+		
 			$count = 0;
 			foreach (glob($path . "/listing*", GLOB_ONLYDIR) as $dirName)
 			{	
@@ -75,7 +77,7 @@ $('.fancybox-thumbs15').fancybox({prevEffect:'fade',nextEffect:'fade',closeBtn:t
 					
 				echo '<p style="clear: both"></p>';
 				echo '</div>';
-				echo '<hr></hr>';
+				echo '<hr />';
 			}
 		}
 		

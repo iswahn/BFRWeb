@@ -27,48 +27,78 @@
 			We take great pride in placing families in suitable homes with emphasis on bringing buyer 
 			and seller together, making the transition as stress-free as possible.
 	        <div id="welcome_subnote">From our family to yours, we welcome you.</div></p>
-		<h2>Our Agents</h2>
-			<center>
-				<div id="agentProfile">
-					<div>
-						<center><img id="profileImg" src="images/portrait.jpg"/></center>
-					</div>
-					<div>
-						<center><table>
-							<tr><td>Name:</td><td>Steve Brown</td></tr>
-							<tr><td>Title:</td><td>Broker</td></tr>
-							<tr><td>Email:</td><td>steve@brownfamilyrealty.com</td></tr>
-							<tr><td>Phone:</td><td>(603) ###-####</td></tr>
-						</table></center>
-					</div>
-				</div>
-				<div id="agentProfile">
-					<div>
-						<center><img id="profileImg" src="images/portrait.jpg"/></center>
-					</div>
-					<div>
-						<center><table>
-							<tr><td>Name:</td><td>Fran Brown</td></tr>
-							<tr><td>Title:</td><td>Broker</td></tr>
-							<tr><td>Email:</td><td>fran@brownfamilyrealty.com</td></tr>
-							<tr><td>Phone:</td><td>(603) ###-####</td></tr>
-						</table></center>
-					</div>
-				</div>
-				<div id="agentProfile">
-					<div>
-						<center><img id="profileImg" src="images/portrait.jpg"/></center>
-					</div>
-					<div>
-						<center><table>
-							<tr><td>Name:</td><td>Kathy Brown Parker</td></tr>
-							<tr><td>Title:</td><td>Office Manager, Sales</td></tr>
-							<tr><td>Email:</td><td>kathy@brownfamilyrealty.com</td></tr>
-							<tr><td>Phone:</td><td>(603) ###-####</td></tr>
-						</table></center>
-					</div>
-				</div>
-			</center>
+		
+		<h3>Search Listings</h3>
+		<form action="listings.php?" method="POST" name="searchForm">
+			<input type="hidden" name="property_search_action" value="search" />
+			<input type="hidden" name="state" value="NH" />
+			<input type="hidden" name="county" value="Merrimack" />
+			<input type="hidden" name="order_by" value="price" />
+			<input type="hidden" name="results_pp" value="10" />
+			<table id="searchTable">
+			<tr>
+				<th>Towns</th>
+				<th>Property Type</th>
+				<th>Property Attributes</th>
+			</tr>
+				<tr>
+					<td>
+							<input type="checkbox" name="town[]" value="Bradford, NH">Bradford, NH<br />
+							<input type="checkbox" name="town[]" value="Hopkinton, NH">Hopkinton, NH<br />
+							<input type="checkbox" name="town[]" value="New London, NH">New London, NH<br />
+							<input type="checkbox" name="town[]" value="Newbury, NH">Newbury, NH<br />
+							<input type="checkbox" name="town[]" value="Salisbury, NH">Salisbury, NH<br />
+							<input type="checkbox" name="town[]" value="Sutton, NH">Sutton, NH<br />
+							<input type="checkbox" name="town[]" value="Warner, NH">Warner, NH<br />
+							<input type="checkbox" name="town[]" value="Webster, NH">Webster, NH<br />
+					</td>
+					<td>
+							<input type="checkbox" name="PropertyType[]" value="Boat Facility" />Boat Facility<br />
+							<input type="checkbox" name="PropertyType[]" value="Commercial/Industrial" />Commercial/Industrial<br />
+							<input type="checkbox" name="PropertyType[]" value="Condo" />Condo<br />
+							<input type="checkbox" name="PropertyType[]" value="Land" />Land<br />
+							<input type="checkbox" name="PropertyType[]" value="Mfg/Mobile" />Mfg/Mobile<br />
+							<input type="checkbox" name="PropertyType[]" value="Multi-Family" />Multi-Family<br />
+							<input type="checkbox" name="PropertyType[]" value="Rental" />Rental<br />
+							<input type="checkbox" name="PropertyType[]" value="Residential" />Residential<br />
+							<br />
+							<input type="checkbox" value="1" id="Waterfront" name="Waterfront"/>&nbsp;Water Front/Access ONLY<br />
+					</td>
+					<td>
+						<table>
+							<tr>
+									<td>Price Range:</td><td><input type="text" name="ListingPriceMin" />&nbsp;to&nbsp;<input type="text" name="ListingPriceMax" />
+							</tr>
+							<tr>
+									<td>Bathrooms:</td><td><input type="text" name="Bathrooms"/></td> 
+							</tr>
+							<tr>
+									<td>Bedrooms:</td><td><input type="text" name="Bedrooms"/></td> 
+							</tr>
+							<tr>
+									<td>Square Feet:</td><td><input type="text" name="SqFtTotalMin" />&nbsp;to&nbsp;<input type="text" name="SqFtTotalMax" /></td> 
+							</tr>
+							<tr>
+									<td>Acreage:</td><td><input type="text" name="LotSizeAreaMin" />&nbsp;to&nbsp;<input type="text" name="LotSizeAreaMax" /></td> 
+							</tr>
+							<tr>
+									<td>Units:</td><td><input type="text" name="TotalUnitsMin" />&nbsp;to&nbsp;<input type="text" name="TotalUnitsMax" /></td> 
+							</tr>
+							<tr>
+									<td>Keywords</td><td><input type="text" name="Keywords" /></td>
+							</tr>
+							<tr>
+								<td>
+									<input type="submit" name="search_button" id="search_button" value="Search" />
+									<input type="button" name="clear_button" id="clear_button_bottom" value="Clear" />
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+		</form>
 		</div>
 	</div>
 	<?php include 'footer.php'; ?>

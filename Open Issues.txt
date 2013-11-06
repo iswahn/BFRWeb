@@ -1,8 +1,4 @@
-2) Need to figure out how to set up Mail server to send contact info using PHP. (Set up now, just not sending.) (need to change from my email once tested)
-4) Need pictures of Nonny, Sha, and Steve for Our Agents section
+2) need to change from my email to info@Brown...
 10) Search Engine Optimization
 	a) Create site maps
-	b) Create a useful 404 page (possible?)
-	c) rel="nofollow" on area information page
-11) Enhance slide shows to look for png and gif
-12) Enhance slide shows to look for case insensitive files
+14) Spice up search options

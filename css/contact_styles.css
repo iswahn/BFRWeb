@@ -25,3 +25,11 @@
 #contact_table{
 	width:100%
 }
+
+fieldSet{
+	background-color:#eee;
+	border-color:#ccc;
+	border-width:3px;
+	border-style:solid;
+	border-radius:10px;
+}
