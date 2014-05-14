@@ -1,0 +1,6 @@
+<?php
+   $mls = 555555;
+?>
+<div id="headline">test</div>
+<div id="description">test</div>
+<div id="price">$0</div>
