@@ -1,0 +1,35 @@
+#contact_div,#contact_submit,#comments{
+	margin-left:200px
+}
+
+#about_form{
+	width:200px;
+	margin-left:auto;
+	margin-right:auto
+}
+
+#contact_div{
+	width:600px;
+	float:left
+}
+
+#contact_comment{
+	width:600px;
+	height:75px
+}
+
+#contact_submit,#contact_clear{
+	width:100px
+}
+
+#contact_table{
+	width:100%
+}
+
+fieldSet{
+	background-color:#eee;
+	border-color:#ccc;
+	border-width:3px;
+	border-style:solid;
+	border-radius:10px;
+}
